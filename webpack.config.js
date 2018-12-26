@@ -27,12 +27,12 @@ module.exports = {
                 test: /\.less$/,
                 loader: 'style-loader!css-loader!less-loader'
             },
-			//es
+            //es
             {
                 test: /\.es$/,
                 loader: 'babel-loader',
                 query: {
-                    preset: ['es2015']
+                    presets: ['es2015']
                 }
             }
         ]
